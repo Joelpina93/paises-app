@@ -9,7 +9,7 @@ import { Country } from '../../interfaces/country.interface';
 })
 export class CountryTableComponent implements OnInit {
 
-  @Input() countries : Country[] = [];
+  @Input() countries : any[] = [];
   constructor() { }
 
   ngOnInit(): void {

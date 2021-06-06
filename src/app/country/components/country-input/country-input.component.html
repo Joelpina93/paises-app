@@ -2,6 +2,7 @@
     <input type="text"
     name="searchQuery"
     [(ngModel)]="searchQuery"
+    (input)="keyPushed()"
     class="form-control"
-    placeholder="Buscar por pais...">
+    placeholder="{{ placeholder }}">
 </form>
